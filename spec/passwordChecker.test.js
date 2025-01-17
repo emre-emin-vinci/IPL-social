@@ -23,3 +23,18 @@ describe("A suite of tests for the function checkSpecialCharacter", function()  
         expect(main.checkSpecialCharacter(string)).toBe(false);
     });
 });
+
+describe("A suite of tests for the function checkNumber", function()  {
+    it("should be true", () => {
+        let string = "jeTestPcq1";
+        let main= new Main();
+        expect(main.checkNumber(string)).toBe(true);
+    });
+    it("should be false", () => {
+        let string = "jeTestPcq";
+        let main= new Main();
+        expect(main.checkNumber(string)).toBe(false);
+    });
+});
+
+

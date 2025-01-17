@@ -6,4 +6,9 @@ export class Main {
         ;
     return /[!@#$%^&*(),.?":{}|<>]/.test(password);
     }
+    checkNumber(password) {
+        return /[0-9]/.test(password);
+    }
+}
+=======
 }
