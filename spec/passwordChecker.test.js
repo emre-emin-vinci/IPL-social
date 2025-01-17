@@ -36,5 +36,16 @@ describe("A suite of tests for the function checkNumber", function()  {
         expect(main.checkNumber(string)).toBe(false);
     });
 });
-
+describe("A suite of tests for the function checkNotIncludePassword", function()  {
+    it("should be true", () => {
+        let string = "jeTestPcq1";
+        let main= new Main();
+        expect(main.checkNotIncludePassword(string)).toBe(true);
+    });
+    it("should be false", () => {
+        let string = "jeTestPcqIPL";
+        let main= new Main();
+        expect(main.checkNotIncludePassword(string)).toBe(false);
+    });
+});
 

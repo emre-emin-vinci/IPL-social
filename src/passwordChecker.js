@@ -9,6 +9,8 @@ export class Main {
     checkNumber(password) {
         return /[0-9]/.test(password);
     }
-}
-=======
+    checkNotIncludePassword(password) {
+        return !password.includes("IPL");
+    }
+
 }
