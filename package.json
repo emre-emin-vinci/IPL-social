@@ -1,6 +1,7 @@
 {
   "name": "IPL-social",
   "main": "passwordChecker.js",
+  "type": "module",
   "scripts": {
     "test": "jasmine"
   },
