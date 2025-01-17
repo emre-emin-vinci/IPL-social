@@ -67,3 +67,4 @@ describe("A suite of tests for the function checkPassword", function()  {
         expect(main.checkPassword(string)).toBe(false);
     })
 });
+
