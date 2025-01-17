@@ -1,5 +1,15 @@
-{
-  "devDependencies": {
-    "jasmine": "^5.5.0"
-  }
+{"name": "IPL-social",
+"main": "passwordChecker.js",
+"scripts": {
+  "test": "jasmine"
+},
+"repository": {
+  "type": "git",
+  "url": "https://github.com/emre-emin-vinci/IPL-social.git"
+},
+"author": "Emre Emin",
+"homepage": "https://github.com/emre-emin-vinci/IPL-social#readme",
+"devDependencies": {
+  "jasmine": "^5.5.0"
+}
 }
