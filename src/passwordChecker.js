@@ -12,5 +12,7 @@ export class Main {
     checkNotIncludePassword(password) {
         return !password.includes("IPL");
     }
-
+    checkPassword(password) {
+        return this.checkMinCharacters(password) && this.checkSpecialCharacter(password) && this.checkNumber(password) && this.checkNotIncludePassword(password);
+    }
 }
