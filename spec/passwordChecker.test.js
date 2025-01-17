@@ -10,4 +10,4 @@ describe("A suite of tests for the function minimum_characters", function()  {
         let main= new Main();
         expect(main.checkMinCharacters(string)).toBe(false);
     });
-});
+
