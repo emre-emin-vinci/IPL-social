@@ -10,3 +10,5 @@ export class Main {
         return /[0-9]/.test(password);
     }
 }
+=======
+}
