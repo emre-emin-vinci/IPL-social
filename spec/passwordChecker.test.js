@@ -48,3 +48,4 @@ describe("A suite of tests for the function checkNotIncludePassword", function()
         expect(main.checkNotIncludePassword(string)).toBe(false);
     });
 });
+
