@@ -11,3 +11,15 @@ describe("A suite of tests for the function minimum_characters", function()  {
         expect(main.checkMinCharacters(string)).toBe(false);
     });
 });
+describe("A suite of tests for the function checkSpecialCharacter", function()  {
+    it("should be true", () => {
+        let string = "jeTestPcq!";
+        let main= new Main();
+        expect(main.checkSpecialCharacter(string)).toBe(true);
+    });
+    it("should be false", () => {
+        let string = "jeTestazzr";
+        let main= new Main();
+        expect(main.checkSpecialCharacter(string)).toBe(false);
+    });
+});
